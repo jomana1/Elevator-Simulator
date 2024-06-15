@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{fd5e23e0-6681-4f06-acce-4602fedb91d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cargo">
+      <UniqueIdentifier>{e63b035f-732a-4112-bae1-5921fd3411ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Truck">
+      <UniqueIdentifier>{1acbd1ef-6d50-48e0-806b-97f0617fb3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{a04ba538-6515-4b24-9fba-8b6d83e30059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Company">
+      <UniqueIdentifier>{204e1d77-0874-4d41-971c-2c166031014a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{f4785f05-e299-4d87-9b88-e5c3aab9c3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADTs">
+      <UniqueIdentifier>{6575f660-baa1-4b47-91e0-d3b1f95515b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayStack.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedLists.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedPQueue.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="PNode.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="PQueueADT.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueADT.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="StackADT.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitingNormalList.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Cancellation.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Preparation.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Promotion.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargo.h">
+      <Filter>Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Company</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Truck.h">
+      <Filter>Truck</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cancellation.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Preparation.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Promotion.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Cargo.cpp">
+      <Filter>Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
+      <Filter>Company</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitingNormalList.cpp">
+      <Filter>ADTs</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Truck.cpp">
+      <Filter>Truck</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
